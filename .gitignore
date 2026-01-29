@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude AI
+.claude/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Build artifacts
+*.spec
+build/
+dist/
+*.exe
+*.app
+*.dmg
+
+# Reports (generated)
+report.html
+report.json
+report.md
+*.report.*
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+.env
+.env.local
+config.local.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node.js / GUI
+node_modules/
+clawd-for-dummies-gui/node_modules/
+clawd-for-dummies-gui/dist/
+clawd-for-dummies-gui/release/

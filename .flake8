@@ -1,0 +1,21 @@
+[flake8]
+# Match Black's default line length
+max-line-length = 88
+# Ignore specific rules
+extend-ignore =
+    # E501: line too long - handled by Black
+    E501,
+    # W503: line break before binary operator - conflicts with Black
+    W503,
+# Exclude common directories
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+    *.egg-info,
+    .eggs,
+    venv,
+    env,
+    .venv,
+    .pytest_cache,
